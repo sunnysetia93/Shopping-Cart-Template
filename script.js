@@ -50,7 +50,7 @@ function refreshTable()
 	for(var p of pur)
 	{
 		var pq = (p.qty)*(p.price)
-		$('#item-table').append("<tr> <td>" + p.id + " </td> <td>" + p.name + "</td> <td>" + p.price + " </td> <td>" + p.qty + "  <button id=plus"+p.id+">+</button>"  + "  <button id=sub"+p.id+">-</button>" +  "</td> <td>" + pq + " </td></tr>")
+		$('#item-table').append("<tr> <td>" + p.id + " </td> <td>" + p.name + "</td> <td>" + p.price + " </td> <td>" + "  <button id=plus"+p.id+">+</button> "  + p.qty + "  <button id=sub"+p.id+">-</button>" +  "</td> <td>" + pq + " </td></tr>")
 		total+=pq;	
 	}
 
