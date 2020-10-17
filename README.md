@@ -26,6 +26,6 @@ So,I recommended you to use the latest version of jQuery.
 
 <h3>Contact:</h3>
 
-* For any queries, feel free to drop a mail at sunnysetia93@gmail.com.
+* For any queries, feel free to drop a mail at dev@sunnysetia.in
 
 <b>Note:</b> This project is only for learning purposes. 
