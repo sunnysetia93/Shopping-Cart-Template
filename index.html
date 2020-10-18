@@ -12,6 +12,8 @@
 	<script type="text/javascript" src="jquery-3.2.1.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--- sass styling --->
+	<link rel="stylesheet" type="text/css" href="./scss/homepageStyles.css">
 </head>
 <body>
 	
@@ -39,46 +41,47 @@
 	<div class="container-fluid" id="maincontainer">
 		<div align="center" id="row1" class="row">
 			<div class="col-md-4" style="padding-bottom: 15px;">
-				<img src="images/pixel.jpg" height="300vh" width="250vw">
+				<img src="images/pixel-2.png">
 				<div id="pro-info">
-					<p> Google Pixel | Price : 45000</p>
+					<p class="product-name">Google Pixel</p><p class="product-price">45000</p>
 					<button class="btn btn-secondary" id="btn1">Buy Now</button>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="images/i7.jpg" height="300vh" width="220vw">
+				<img src="images/iphone-7.png">
 				<div id="pro-info">
-					<p> Iphone 7 | Price : 60000</p>
+					<p class="product-name">Iphone 7</p><p class="product-price">60000</p>
 					<button class="btn btn-secondary" id="btn2">Buy Now</button>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="images/mac.jpg" height="300vh" width="300vw">
+				<img src="images/macbook-pro.png">
 				<div id="pro-info">
-					<p> MacBook Pro | Price : 130000</p>
+					<p class="product-name">MacBook Pro</p>
+					<p class="product-price">130000</p>
 					<button class="btn btn-secondary" id="btn3">Buy Now</button>
 				</div>
 			</div>
 			</div>
 			<div align="center" id="row1" class="row">
 			<div class="col-md-4">
-				<img src="images/sony.jpg" height="300vh" width="210vw">
+				<img src="images/sony-headphones.png">
 				<div id="pro-info">
-					<p> Sony Headphones | Price : 12000</p>
+					<p class="product-name">Sony Headphones</p><p class="product-price">12000</p>
 					<button class="btn btn-secondary" id="btn4">Buy Now</button>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="images/play.jpg" height="300vh" width="250vw">
+				<img src="images/ps4.png">
 				<div id="pro-info">
-					<p> PlayStation 4 | Price : 60000</p>
+					<p class="product-name">PlayStation 4</p><p class="product-price">60000</p>
 					<button class="btn btn-secondary" id="btn5">Buy Now</button>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<img src="images/microsoft.jpg" height="300vh" width="350vw">
+				<img src="images/surface-pro-7.png">
 				<div id="pro-info">
-					<p>MicroSoft Surface | Price : 55000</p>
+					<p class="product-name">Microsoft Surface</p><p class="product-price">55000</p>
 					<button class="btn btn-secondary" id="btn6">Buy Now</button>
 				</div>
 			</div>
@@ -99,7 +102,7 @@
 			    <tr>
 			      <th>Item Id</th>
 			      <th>Product Name</th>
-			      <th>Price Name</th>
+			      <th>Price</th>
 			      <th>Quantity</th>
 			      <th>Total</th>
 			    </tr>

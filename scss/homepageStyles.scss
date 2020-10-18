@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
+$yellow: #ffd000;
+$clr-primary: $yellow;
+$clr-secondary: #ff5100;
+$clr-tertiary: #afff00;
+$font-secondary: "Nunito", sans-serif;
+$text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+//viewport breakpoints
+$desktop-bp: 1024px;
+$tablet-bp: 1023px;
+$mobile-bp: 480px;
+
+#maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fcfcfc;
+  color: #212121;
+  // border: 1px solid red; //debug
+  .row {
+    width: 90%;
+    // border: 1px solid green; //deubg
+    .col-md-4 {
+      //product container
+      justify-content: center;
+      align-items: center;
+      // border: 1px solid blue; //debug
+      img {
+        max-height: 32.5vh;
+        max-width: 30vw;
+        // object-fit: cover;
+      }
+
+      div {
+        //product info
+        // border: 1px solid red; //debug
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        // align-items: center;
+        justify-content: space-evenly;
+        .product-name {
+          margin-top: 0.8rem;
+          font-size: 1.5rem;
+        }
+        .product-price {
+          font-size: 1.1rem;
+        }
+      }
+      .btn-secondary {
+        font-family: $font-secondary;
+        background: $clr-primary;
+        font-weight: 700;
+        word-spacing: 1px;
+        color: #121212;
+        text-shadow: none;
+        width: max-content;
+        // text-shadow: 1px 2px 3px rgba(50, 50, 50, 0.25);
+      }
+      .btn-secondary:hover {
+        cursor: pointer;
+        background: lighten($clr-primary, 15%);
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet-bp) {
+  .row {
+    // flex-direction: column;
+    // border: 1px solid red; //debug
+    .col-md-4 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // border: 1px solid green; //debug
+      img {
+        max-width: 25vw !important;
+        max-height: 25vh !important;
+        // border: 1px solid blue; //debug
+      }
+      div {
+        //product info
+        // border: 1px solid red; //debug
+      }
+    }
+  }
+}
+@media (max-width: $mobile-bp) {
+  .row {
+    // flex-direction: column;
+    // border: 1px solid red; //debug
+    .col-md-4 {
+      margin: 2.5vh 0;
+      // border: 1px solid green; //debug
+      img {
+        max-width: 95vw;
+      }
+    }
+  }
+}
