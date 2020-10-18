@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
+#maincontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fcfcfc;
+  color: #212121;
+}
+
+#maincontainer .row {
+  width: 90%;
+}
+
+#maincontainer .row .col-md-4 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#maincontainer .row .col-md-4 img {
+  max-height: 32.5vh;
+  max-width: 30vw;
+}
+
+#maincontainer .row .col-md-4 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#maincontainer .row .col-md-4 div .product-name {
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+}
+
+#maincontainer .row .col-md-4 div .product-price {
+  font-size: 1.1rem;
+}
+
+#maincontainer .row .col-md-4 .btn-secondary {
+  font-family: "Nunito", sans-serif;
+  background: #ffd000;
+  font-weight: 700;
+  word-spacing: 1px;
+  color: #121212;
+  text-shadow: none;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#maincontainer .row .col-md-4 .btn-secondary:hover {
+  cursor: pointer;
+  background: #ffde4d;
+}
+
+@media (max-width: 1023px) {
+  .row .col-md-4 {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .row .col-md-4 img {
+    max-width: 25vw !important;
+    max-height: 25vh !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .row .col-md-4 {
+    margin: 2.5vh 0;
+  }
+  .row .col-md-4 img {
+    max-width: 95vw;
+  }
+}
+/*# sourceMappingURL=homepageStyles.css.map */
