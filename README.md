@@ -1,5 +1,8 @@
 # Shopping-Cart-Template
 Single Page Template for Simple,Responsive Shopping Cart using JavaScript & jQuery.
+
+![desktop screenshot of main application page](main-page-screenshot.png?raw=true)
+
 <ul>
 <li>This project uses local storage of browser to store purchased items and hence does not contain any Database.</li>
 <li>Main aim is to step up a basic layout of how cart can be implemented in JavaScript, which can be later extended
