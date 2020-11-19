@@ -1,5 +1,5 @@
 # Shopping-Cart-Template
-Single Page Template for Simple,Responsive Shopping Cart using JavaScript & jQuery.
+<i>Single Page Template for Simple,Responsive Shopping Cart using JavaScript & jQuery.</i>
 
 ![desktop screenshot for main application](main-page-screenshot.png)
 
